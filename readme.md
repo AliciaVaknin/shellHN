@@ -1,12 +1,14 @@
 # ShellHN - Command line utility for Hacker News
 
 ## Installation:
-1. Create a virtual environment that includes the following directories:
+1. clone the git repository: git clone https://github.com/AliciaVaknin/shellHN.git
+
+2. Create a virtual environment that includes the following directories:
  'Click','requests','aiohttp','html2text','aiohttp','asyncio','logging'
  
- You can use the virtual environment that I created named "int".
+ You can see the virtual environment I created named "int".
  
- 2. From the command line cd the project directory and activate the virtual environment.
+3. From the command line cd the project directory and activate the virtual environment.
 
 ##Usage:
 
@@ -27,3 +29,5 @@ To run the unittest run:
 ```
 pytest
 ```
+
+Note: This program was created on windows
