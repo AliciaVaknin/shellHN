@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        hn=shell_hn:shell
+    

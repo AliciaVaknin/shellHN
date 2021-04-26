@@ -2,3 +2,16 @@
 2021-04-26 15:49:32,470 ERROR shell_hn Getting story #9 commands failed with error: 
 2021-04-26 18:06:15,013 INFO shell_hn Getting top stories.
 2021-04-26 18:06:18,174 ERROR shell_hn Getting top stories failed with error: 
+2021-04-26 18:41:09,563 INFO shell_hn Getting top stories.
+2021-04-26 18:43:29,995 INFO shell_hn Getting top stories.
+2021-04-26 19:15:52,377 INFO shell_hn Getting top stories.
+2021-04-26 19:20:33,469 INFO shell_hn Getting top stories.
+2021-04-26 19:20:34,092 ERROR shell_hn Getting top stories failed with error:  happens at get_top_stories_ids
+2021-04-26 19:33:03,524 INFO shell_hn Getting top stories.
+2021-04-26 19:33:04,253 ERROR shell_hn Getting top stories failed with error:  happens at get_top_stories_ids
+2021-04-26 19:34:23,348 INFO shell_hn Getting top stories.
+2021-04-26 19:34:39,697 INFO shell_hn Getting story #5 commands.
+2021-04-26 19:34:40,335 ERROR shell_hn Getting story #5 commands failed with error:  happens at get_top_stories_ids
+2021-04-26 19:34:59,300 INFO shell_hn Getting story #8 commands.
+2021-04-26 19:36:52,468 INFO shell_hn Getting top stories.
+2021-04-26 19:50:51,791 INFO shell_hn Getting top stories.

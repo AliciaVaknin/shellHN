@@ -28,7 +28,9 @@ def top():
     try:
         hn_api.get_top_stories()
     except Exception as e:
-        logger.error("Getting top stories failed with error: {}".format(e))
+        err_msg = "Getting top stories failed with error: {}".format(e)
+        logger.error(err_msg)
+        print(err_msg)
 
 
 @shell.command()
@@ -45,4 +47,6 @@ def comments():
     try:
         hn_api.get_comments_by_story_rank(rank)
     except Exception as e:
-        logger.error("Getting story #{} commands failed with error: {}".format(rank, e))
+        err_msg = "Getting story #{} commands failed with error: {}".format(rank, e)
+        logger.error(err_msg)
+        print(err_msg)

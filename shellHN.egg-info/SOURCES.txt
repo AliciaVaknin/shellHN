@@ -1,0 +1,8 @@
+setup.py
+shell_hn.py
+shellHN.egg-info/PKG-INFO
+shellHN.egg-info/SOURCES.txt
+shellHN.egg-info/dependency_links.txt
+shellHN.egg-info/entry_points.txt
+shellHN.egg-info/requires.txt
+shellHN.egg-info/top_level.txt

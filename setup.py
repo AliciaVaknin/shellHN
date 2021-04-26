@@ -9,6 +9,9 @@ setup(
         'requests',
         'aiohttp',
         'html2text',
+        'aiohttp',
+        'asyncio',
+        'logging',
     ],
     entry_points='''
         [console_scripts]

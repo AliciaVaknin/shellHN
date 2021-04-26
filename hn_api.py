@@ -28,7 +28,12 @@ def get_top_stories_ids(limit):
     get_stories_id_url = \
         'https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty&limitToFirst={}&orderBy="$key"' \
             .format(limit)
-    return requests.get(get_stories_id_url).json()
+
+    try:
+        results = requests.get(get_stories_id_url).json()
+    except Exception as e:
+        raise type(e)(str(e) + ' happens at get_top_stories_ids')
+    return results
 
 
 async def get_stories_data(stories_ids):
@@ -71,7 +76,11 @@ def get_comments_by_story_rank(rank):
     story_id = stories_ids[rank-1]
 
     story_data_url = 'http://hn.algolia.com/api/v1/items/{}'.format(story_id)
-    story_data = requests.get(story_data_url).json()
+
+    try:
+        story_data = requests.get(story_data_url).json()
+    except Exception as e:
+        raise type(e)(str(e) + ' happens when trying to get story data')
 
     # check if we have comments on this story
     if 'children' in story_data and len(story_data['children']) > 0:
