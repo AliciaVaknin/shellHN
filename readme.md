@@ -6,7 +6,7 @@
 2. Create a virtual environment that includes the following directories:
  'Click','requests','aiohttp','html2text','aiohttp','asyncio','logging'
  
- You can see the virtual environment I created named "int".
+  You can see the requirements.txt.
  
 3. From the command line cd the project directory and activate the virtual environment.
 
@@ -22,7 +22,7 @@ To get the comments thread of a story by its rank, run:
 hn comments
 ```
 
-Tests:
+##Tests:
 
 To run the unittest run:
 
